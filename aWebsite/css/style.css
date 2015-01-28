@@ -21,11 +21,11 @@ body {
 	line-height:1.5em;
 }
 
-a:link{ color: #CF7F18; }
+a:link{ color: #ff4046; }
 
-a:visited{ color: #AD660C; }
+a:visited{ color: #cc1f24; }
 
-a:hover, a:focus{ color: #FF9814;	text-decoration:none; }
+a:hover, a:focus{ color: #777;	text-decoration:none; }
 
 p{	margin:1em 0; }
 
@@ -70,7 +70,7 @@ em strong, strong em{ font-weight:bold; font-style:italic; }
 	background:#fff;
 	top:50%;
 	margin:-100px 0 0 0;
-	border:solid #E69623;
+	border:solid #004d3b;
 	border-width:3px 0 3px 0;
 	
 	opacity: 0.90;
@@ -83,7 +83,7 @@ em strong, strong em{ font-weight:bold; font-style:italic; }
 	position: absolute;
 	width:186px;
 	height:32px;
-	background: url(../img/logo.gif) no-repeat 0 0;
+	background: url(../img/logo.png) no-repeat 0 0;
 	left:50%;
 	margin:0 0 0 -280px;
 	top:15px;

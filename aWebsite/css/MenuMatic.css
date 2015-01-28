@@ -28,7 +28,7 @@
 
 /* All menu links on hover or focus */
 #nav a:hover, #nav a:focus, #subMenusContainer a:hover, #subMenusContainer a:focus, #nav a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused{
-	background-color:#F6C739 ;
+	background-color:#ff4046;
 	color:#FFF;
 }
 
@@ -39,7 +39,7 @@
 #subMenusContainer a.subMenuParentBtnFocused,
 #nav li a:hover,
 #nav li a:focus{
-	background-color:#F6C739 ;
+	background-color:#ff4046 ;
 	color:#FFF;
 }
 
