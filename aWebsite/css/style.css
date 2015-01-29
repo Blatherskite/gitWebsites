@@ -6,6 +6,7 @@ html{
 	margin:0 auto;
 	padding:0;
 	/*background: url(../img/bg.jpg) no-repeat center center #fff;*/
+    background: #dadada;
 	overflow:scroll;
 }
 
@@ -25,13 +26,13 @@ a:link{ color: #ff4046; }
 
 a:visited{ color: #cc1f24; }
 
-a:hover, a:focus{ color: #777;	text-decoration:none; }
+a:hover, a:focus{ color: #ccc;	text-decoration:none; }
 
 p{	margin:1em 0; }
 
 h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p{	margin-top:-0.05em;}
 
-h1, h2, h3, h4, h5, h6{ color: #9CA716; margin-bottom:0.5em; }
+h1, h2, h3, h4, h5, h6{ color: #004d3b; margin-bottom:0.5em; }
 
 h1{ font-size:24px;}
 
