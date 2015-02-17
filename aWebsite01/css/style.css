@@ -4,7 +4,8 @@ html {
     text-align: center;
     margin: 0 auto;
     padding: 0;
-    background: url(../img/bg.gif) center center #ffbc40;
+    /*    background: url(../img/bg.gif) center center #ffbc40;*/
+    
     overflow: scroll;
 }
 
@@ -53,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #004d3b;
+    color: #333;
     margin-bottom: 0.5em;
 }
 
@@ -129,17 +130,17 @@ strong em {
 }
 
 #container {
-    display: block;
+    display: inline-block;
     position: absolute;
     padding: 0;
     width: 100%;
-    height: 210px;
-    background: #fefefe;
+    height: 50%;
+    background: #fff;
     top: 50%;
     margin: -100px 0 0 0;
-    border: solid #004d3b;
+    border: solid #333;
     border-width: 3px 0 3px 0;
-    opacity: 0.40;
+    opacity: 0.90;
     -moz-opacity: 0.90;
     filter: alpha(opacity=90);
 }
@@ -169,18 +170,17 @@ strong em {
 }
 
 #footer {
+    color: #ff4046;
     position: absolute;
     bottom: 0;
     margin: 0;
     width: 100%;
     text-align: center;
     left: 0;
-    background: #fff;
-    /*
+    background: #333;
     opacity: 0.90;
     -moz-opacity: 0.90;
     filter: alpha(opacity=90);
-*/
 }
 /* Based partially on Matthew Carroll's keyboard accessible flavor of Suckerfish 
  * Dropdowns by Patrick Griffiths and Dan Webb. 
@@ -194,7 +194,8 @@ strong em {
     text-decoration: none;
     display: block;
     padding: 10px 20px;
-    background-color: #fff;
+    /*    background-color: #fff;*/
+    
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
 }
@@ -218,7 +219,7 @@ strong em {
 #subMenusContainer a:focus,
 #nav a.mainMenuParentBtnFocused,
 #subMenusContainer a.subMenuParentBtnFocused {
-    background-color: #F6C739;
+    background-color: #ff4046;
     color: #FFF;
 }
 /* sub menu links on hover or focus */
@@ -229,7 +230,7 @@ strong em {
 #subMenusContainer a.subMenuParentBtnFocused,
 #nav li a:hover,
 #nav li a:focus {
-    background-color: #F6C739;
+    background-color: #ff4046;
     color: #FFF;
 }
 /* Parent Sub Menu Links ---[javascript users only]*/
@@ -288,7 +289,8 @@ strong em {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     background: #fff;
-    border: 1px solid #C3D46A;
+    /*    border: 1px solid #000;*/
+    
     left: 0;
 }
 /* List items in main menu --[for non-javascript users this applies to submenus as well]  */
