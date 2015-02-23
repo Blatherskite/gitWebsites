@@ -12,12 +12,17 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-16" />
     <script src="js/jquery.js"></script>
     <script src="js/include.js"></script>
+    <script src="js/processing.js"></script>
+    <script type="text/javascript">
+        function getProcessingSketchId() {
+                return 'circa';
+    </script>
 </head>
 
 <body>
-
     <div id="container">
         <div id="include"></div>
+        <canvas id="circa" data-processing-sources="pde/circa/circa.pde" width="750" height="750"></canvas>
         <div id="content">
             <h1>Blatherskite</h1>
             <p>
@@ -28,7 +33,7 @@
             <ul>
                 <li>a person who talks great lengths without making much sense</li>
                 <li>foolish talk; nonsense</li>
-                <li>the person who made this website ^_^</li>
+                <li><i>syn.</i> the person who made this website ^_^</li>
             </ul>
         </div>
     </div>
