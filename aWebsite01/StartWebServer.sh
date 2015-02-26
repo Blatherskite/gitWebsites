@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd ~/Documents/gitWebsites/myWebsite01
+cd ~/Documents/gitWebsites/aWebsite01/
 python -mSimpleHTTPServer
